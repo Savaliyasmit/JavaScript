@@ -3,7 +3,7 @@
 //ES 5 
 // console.log('string is ' + 'string');
 
-//ES 6use backtick => `you have entre "doblequtos "  `
+//ES 6use backtick => `you have print "doblequtos "  `
 // console.log(`my name is smit.
 // my name age is "19".`);
 
