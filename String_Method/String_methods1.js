@@ -5,7 +5,7 @@
 
 // string methods :-
 /*
-1.length => print string length
+1.length => print string length was count 1 other methods count 0
 2.slice => (start , end) print include start - negative start last 1 index of string
 3.substring => (start , end) same as slice but include start
 4.toUpperCase => convert upper case string
@@ -25,7 +25,7 @@ let mer = 'piyush'
 //  console.log(len.slice(-5,-2)); //ali negative number start 1
 // console.log(len.slice(6));
 
-//substr as like slice 
+//substr   length
 //  console.log(len.substr(5,7));    
 //  console.log(len.substr(-5,5));    
 
