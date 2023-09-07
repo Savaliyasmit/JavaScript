@@ -1,5 +1,5 @@
 //String Literls
-
+//you have use templte  literls using backtick `` and ${} converts into string 
 //ES 5 
 // console.log('string is ' + 'string');
 
