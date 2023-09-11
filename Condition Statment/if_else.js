@@ -1,4 +1,4 @@
-// 1.smallest number
+// // 1.smallest number
 // let a = 20, b =10;
 
 // if (a<b) {
