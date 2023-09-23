@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<hr>
+    <h1 onclick="message()">this is h1 tag</h1>
+<hr>
+    <!-- show date when click -->
+    <p onclick="dateshow()">Click Here And Show Today Date</p>
+    <p id="date"></p>
+
+   <hr>    
+<!--you have get uppercase when user type email -->
+<input type="email" onchange="uppercase()" id="emails">
+
+<hr>
+
+<!-- when mouse pointer drsg to text change a red -->
+<p onmouseover="red(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam autem adipisci minima assumenda cum cupiditate excepturi. Suscipit, dolore. Dicta, ipsum hic. Vitae ad soluta ipsa iste molestiae cumque recusandae libero.</p>
+
+<hr>
+
+
+<div onmousedown="Down(this)" onmouseup="Up(this)"
+style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+Click Me</div>
+
+<hr>
+
+<button id="clickIt">Click here</button>
+
+<p id="hoverPara">Hover over this Text !</p>
+
+<b id="effect"></b>
+
+    <script src="Domevent.js"></script>
+</body>
+</html>
