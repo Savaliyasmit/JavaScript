@@ -71,7 +71,8 @@ length
 // let a2 = [58,59,60]
 // let a3 = [true,false]
 
-// let reult = a1.concat(a2,a3)
+// let reult = a1.concat(a2,a3,a3)
+// let result = [...a1,...a2,...a3]
 // console.log(reult);
 
 //6.sort accending order array 
@@ -86,7 +87,7 @@ length
 
 //8 splice methode :-The splice(position,removeelement,optional add element) method adds new items to an array.
 // let num = [12,56,46,77,55,88]
-// let result = num.splice(0,0,'mid')
+// let result = num.splice(2,1,'mid')
 // console.log(result);
 // console.log(num);
 
@@ -98,6 +99,7 @@ length
 // let num = [12,56,46,77,55,88]
 // // let result = num.slice(2)
 // let result = num.slice(2,4)
+// // console.log(num);
 // console.log(result);
 
 //10.The forEach :- method calls a function (a callback function) once for each array elemetn
@@ -122,14 +124,14 @@ The map() method does not change the original array.
 //           return val + 45
 // })
 // console.log(add);
-// console.log(num);
+// // console.log(num);
 
 /*12.The every() :-method tests whether all elements in the array pass the test
 implemented by the provided function. It returns a Boolean value.
 */
 // let  num = [12,56,46,77,55,88,66,60]
 // let result = num.every((val)=>{
-//      return  val>100 && val<100
+//      return  val<100
 // })
 // console.log(result); //give bollean value
 
@@ -163,6 +165,7 @@ two oprand addtion one bye one
 //              return val + total
 // })
 // console.log(result);
+// // console.log(num);
 
 //16.Array reduceRight():-
 /* The reduceRight() method runs a function on each array element to produce 
@@ -181,9 +184,9 @@ The find() method returns the first element in the provided array that satisfies
 If no values satisfy the testing function, undefined is returned
 */
 
-// let num = [1,12,56,46,77,55,88,66,60,101]
+// let num = [1,12,56,66,46,77,55,88,60,101]
 // let result = num.find((val)=>{
-//              return val<56
+//              return val>56
 // })
 // console.log(result);
 
@@ -204,8 +207,8 @@ satisfies the provided testing function. If no elements satisfy the testing func
 //  let num = [1,12,56,46,77,55,88,66,60,101]
 
 //  let result = num.entries();
-//  console.log(result.next().value);
-//  console.log(result.next().value);
+// //  console.log(result.next().value);
+// //  console.log(result.next().value);
 
 // for(let i =0 ; i<5 ; i++){
 //     console.log(result.next().value);
@@ -218,7 +221,7 @@ The Array.includes() method determines whether an array includes a certain
 value among its entries, returning true or false as appropriate.
 */
 // let arr = ["hello",9,10,14,13]
-//  let result = arr.includes(9)
+//  let result = arr.includes(1)
 // let result1 = arr.includes(90)
 // console.log(result);
 
@@ -226,7 +229,7 @@ value among its entries, returning true or false as appropriate.
 // // The Math.max.apply to find the highest number in an array.
 // let num = [1,12,56,46,77,55,88,66,60,101]
 // let result =(arr)=>{
-//     return Math.max.apply(null,arr);
+//     return Math.max.apply(null,num);
 // }
 // console.log(result(num));
 
@@ -234,7 +237,7 @@ value among its entries, returning true or false as appropriate.
 // The Math.min.apply to find the lowest number in an array.
 // let num = [1,12,56,46,77,55,88,66,60,101]
 // let result =(arr)=>{
-//     return Math.min.apply(null,arr);
+//     return Math.min.apply(null,arr)
 // }
 // console.log(result(num));
 
@@ -242,8 +245,9 @@ value among its entries, returning true or false as appropriate.
 //Array Changing Elements:-
 //Array elements are accessed using their index number.
 // let num = [343,57,34,78,5,4]
-// num[0] = 44
-// console.log(num);
+// let result = num[0] = 44
+// console.log(result);
+
 
 //24.copyWithin
 /*
