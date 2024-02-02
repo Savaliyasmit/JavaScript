@@ -33,10 +33,10 @@
 // console.log(result);
 // console.log(result.length);
 
-//13.padstart and 14.padend
+// 13.padstart and 14.padend
 // let text="34"
-// let padded =  text.padStart(5,"l")
-
+// let padded =  text.padStart(10,"l")
+// console.log(padded);
 //padend
 //  let text="34"
 //  let padded =  text.padEnd(5,"l")
@@ -50,9 +50,9 @@
 // console.log(padded);
 
 //15.char() provide string of index and charAt()  give you string character ascii value
-// let index = 'my name is smit'
+// let index = 'myname is smit'
 // let result = index.charAt(5);
-// console.log(index);
+// console.log(result);
 
 //charAt 
 // let ascii = 'my name is smit'

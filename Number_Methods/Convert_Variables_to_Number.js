@@ -9,10 +9,11 @@
 
 // let x = "1215"
 // let y = "12+15"
-// console.log(Number(x));
+// console.log(Number(y));
 // console.log(Number(y));
 // console.log(Number(false)); bollean convert into number
 //console.log(Number(`10 20 30`)); return Nan because space not requir to convert number
+
 
 //2.parseInt() and  parseFloate()
 //console.log(Number.parseInt(1.25));  convert number into integer

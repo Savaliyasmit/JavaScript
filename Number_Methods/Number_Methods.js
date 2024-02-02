@@ -20,9 +20,9 @@ ValueOf()	Returns a number as a number
 // console.log((1.2584595).toPrecision());
 
 //toFixed() returns a number written with a number of decimals
-//console.log((1.254678).toFixed(4));  fix to after point of value
+// console.log((1.254678).toFixed(4));  //fix to after point of value
 //console.log((123456.2546).toFixed());  not give fix value print point before
 
 //ValueOf()	Returns a number as a number
-// console.log((1.2524095075).valueOf()); give as value as.
+// console.log((1.2524095075).valueOf()); //give as value as.
 

@@ -40,7 +40,7 @@
 // }
 
 // //5.year find its leap or not
-// let a= 2021;
+// let a= 2024;
 // if(a %4 == 0)
 // {
 //     console.log("year is leap year:",a)

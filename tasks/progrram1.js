@@ -1,9 +1,9 @@
 //1.1. Write a JS function that reverse a number. 
 
-// let rev = (num)=>{
-//    return (num.toString().split("").reverse("").join(""))
-// }
-// console.log(Number(rev(92347)));
+let rev = (num)=>{
+   return (num.toString().split("").reverse("").join(""))
+}
+console.log(Number(rev("92347")));
 
 
 //2.2. Write a JS function that returns a passed string with letters in alphabetical order. 

@@ -8,8 +8,8 @@
 
 
 // 51 to 99
-// let a = 51;
-// while(a<99){
+// let a = 51
+// while(a<=99){
 //     a++;
 //       console.log(a);
 // }
@@ -70,7 +70,9 @@
 // let i=1 ,n= 10 , j = 1
 // while(i<=n){
 //     j = i * i ;
-//     console.log(j);
-//     i++ ;
-// }
+//      i++ ;
+//      console.log(j);
+//     }
+    // 
+    
 

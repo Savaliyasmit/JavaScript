@@ -16,14 +16,14 @@
 
 //length
 let len = 'smit savaliya'
-let mer = 'piyush'
+// let mer = 'piyush'
 // let result = len.length
 // console.log(result);
 
 //slice(start , end) include start output =>
 // console.log(len.slice(5,8)); //sav
 //  console.log(len.slice(-5,-2)); //ali negative number start 1
-// console.log(len.slice(6));
+// console.log(len.slice(6,-1));
 
 //substr   length
 //  console.log(len.substr(5,7));    
@@ -41,4 +41,3 @@ let mer = 'piyush'
 //Concat merge two string
 // result = len.concat( "\t" + mer);
 // console.log(result);
-

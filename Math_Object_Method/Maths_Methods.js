@@ -39,7 +39,7 @@
 // console.log(Math.log10(10));
 
 //sin,cos,tan found table value 
-// console.log(Math.sign(67)); //return positive and nagative 1 and 0
+// console.log(Math.sign(-67)); //return positive and nagative 1 and 0
 // console.log(Math.sin(90 *Math.PI/180));
 // console.log(Math.cos(60 *Math.PI/180));
 // console.log(Math.tan(45 *Math.PI/180));

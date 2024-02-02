@@ -6,6 +6,8 @@
     
 // }
 // console.log(per.pertrol2018);
+// let result = Object.values(per)
+// console.log(result);
 
 //this is count object length
 // console.log(Object.keys(per).length);
@@ -24,7 +26,7 @@
 //3.string
 // const str = "smit savaliya"
 // for(let s in str){
-//     console.log(str[s]);
+//     console.log(str[s].toUpperCase());
     
 // }
 
@@ -32,16 +34,15 @@
 
 //for of loop use in array and string not use in object
 
-//1.array
+// 1.array
 // const array = [23,2,3,23,23,23]
 
 // for(let a of array){
-//     console.log(a);
+//     console.log();
 // }
 
 //2.strings
-// const str = "smit savaliya"
-
-// for(let s of str){
-//     console.log(s);
-// }
+// let str = "smit savaliya"
+for(let s of str){
+    console.log(s);
+}

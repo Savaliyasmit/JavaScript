@@ -17,7 +17,7 @@ Specifying a month higher than 11, will not result in an error but add the
 overflow to the next year.
 Specifying a day higher than max, will not result in an error but add the
 overflow to the next month.
-*/
+// */
 
 // let date = new Date()
 // console.log(date);

@@ -9,8 +9,8 @@
 // console.log(2 ** 2);   Exponentiation
 // console.log(x++);      post increment
 // console.log(++x);      pre increment
-// console.log(y--);      post increment
-// console.log(--y);      pre increment
+// console.log(y--);      post dicrement
+// console.log(--y);      pre dicrement
 //console.log(x % y);     modules
 
 //assigment operator
